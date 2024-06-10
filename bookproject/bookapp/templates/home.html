@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content1 %}
+<div class="row my-5">
+  <div class="col-12 d-flex justify-content-center align-items-center">
+    <div class="circular-image-container">
+      <img class="circular-image" src=" {% static 'images/1000057570.jpg' %}" alt="Image">
+    </div>
+  </div>
+
+  <div class="col-12 text-center">
+    <h4 class="title"> Hi My name is </h4>
+       <div class="name">
+         <h1> Zara watson</h1>
+       </div>
+  </div>
+
+  <div class="col-12 text-center mt-3">
+    <div class="col-12 d-flex justify-content-center align-items-center">
+        <a href="https://www.linkedin.com/in/neelam-choudhary-4a93a455/" target="_blank" class="ms-3">
+           <img src="{% static 'images/download.png' %}" alt="images/download.png" width="50" height="50" class="social_links">
+        </a>
+
+        <a href="https://www.youtube.com/@codingUmbrella" target="_blank" class="ms-3">
+           <img src="{% static 'images/1000057568.jpg' %}" alt="images/1000057568.jpg" width="50" height="50" class="social_links">
+        </a>
+
+        <a href="instagram.com/neelam.choudhary.3785" target="_blank" class="ms-3">
+           <img src="{% static 'images/download.jpeg' %}" alt="images/download.jpeg" width="50" height="50" class="social_links">
+        </a>
+  </div>
+
+  </div>
+</div>
+
+
+
+{% endblock content1 %}
